@@ -75,3 +75,21 @@ class Requirement(models.Model):
 
     def __str__ (self):
         return f'requirement for {self.announcement.announcement}'
+
+class Reports(models.Model):
+    title = models.CharField(max_length=255)
+    upload = models.FileField(upload_to='uploads/')
+    def __str__(self):
+        return self.title
+
+class Tenders(models.Model):
+    title = models.CharField(max_length=255)
+    upload = models.FileField(upload_to='uploads/')
+    def __str__(self):
+        return self.title
+
+class Annual_Audited_Reports(models.Model):
+    title = models.CharField(max_length=255)
+    upload = models.FileField(upload_to='uploads/')
+    def __str__(self):
+        return self.title

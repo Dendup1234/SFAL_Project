@@ -119,7 +119,7 @@
 
 @media (min-width: 992px) {
     .logo {
-        width: 160px; /* Adjust this value to the desired size for large screens */
+        width: 140px; /* Adjust this value to the desired size for large screens */
     }
 }
 
