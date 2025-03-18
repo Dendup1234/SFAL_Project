@@ -1,1 +1,1 @@
-web: gunicorn SFAL_Project.wsgi
+web: gunicorn SFAL.wsgi
